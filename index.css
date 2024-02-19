@@ -329,7 +329,7 @@ footer{
 
 @media (max-width: 700px){
     .box{
-        background-color: rgba(255, 255, 255, 0.452);
+        background-color: rgba(192, 192, 192, 0.356);
 
     }
     #home_hero_social{
@@ -372,7 +372,6 @@ footer{
         min-width: 400px;
         height: auto;
         padding: 10px;
-        background-color: rgba(77, 186, 250, 0.507);;
         border-radius: 10px;
     }
     #home_hero_content{
