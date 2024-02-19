@@ -158,6 +158,7 @@ main{
     padding: 10px;
 }
 #boxeConnaitre > h3, #boxeCompetences > h3{
+    text-align: center;
     margin-bottom: 20px;
     font-size: 27px;
 }
@@ -342,6 +343,12 @@ footer{
     .spanContact{
         min-width: 80vw;
         text-align: center;
+    }
+    #containerBoxes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 @media (min-height: 900px){
