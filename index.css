@@ -11,6 +11,7 @@
 body{
     margin-right: 0px;
     overflow-x: hidden;
+    max-width: 100%;
 }
 a{
     color: black;
