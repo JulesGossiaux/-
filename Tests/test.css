@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Styles CSS pour la transition */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Défilement fluide */
+}
+
+.section {
+    margin-top: 500px; /* Pour créer un espace entre les sections */
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: margin-top 0.5s ease; /* Ajouter une transition à la marge */
+}
+
+.section:hover {
+    margin-top: 550px; /* Exemple de changement de style pour la transition */
+}

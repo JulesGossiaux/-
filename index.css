@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    font-family: "PT Sans", sans-serif;
+    font-size: 19px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(77, 186, 250);
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+#home_hero_social img{
+    padding: 5px;
+    width: 45px;
+    border-radius: 10px;
+}
+#home_hero_social img:hover{
+    cursor: pointer;
+    background-color: rgba(77, 186, 250, 0.293);
+}
+#home_hero{
+    height: 100vh;
+}
+nav{
+    background-color: rgb(226, 224, 224);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+}
+nav>h2{
+    margin-left: 5px;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 50px;
+
+}
+nav>ul>li{
+    margin: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+nav > ul > li > a{
+    font-size: 17px;
+}
+#pdp{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+#pdp img{
+    width: 60px;
+    background-color: white;
+}
+main{
+    height: 100%;
+    background-color: #eeeeee73;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#home_hero_content{
+    text-align: center;
+    background-color: #fffefe;
+    width: 70%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#boutonContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: rgb(77, 187, 250);
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 0px solid;
+}
+#icons{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SUR MOI DEUXIEME ECRAN*/
+#surMoi{
+    background-color: white;
+}
+#boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.headTitre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.titre> h2{
+    width: 200px;
+    font-size: 35px;
+    text-align: center;
+}
+.titre{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.souligne{
+    margin-top: 5px;
+    width: 50px;
+    height: 7px;
+    background-color: black;
+    border-radius: 25px;
+}
+.headTitre > p {
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 80vw;
+    max-width: 1000px;
+    border-radius: 15px;
+    padding: 10px;
+}
+#boxeConnaitre > h3, #boxeCompetences > h3{
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+.boxe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    max-width: 1000px;
+}
+#boxeConnaitre > p{
+    width: 80%;
+}
+#boxeCompetences > #containerBoxes{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: min-content;
+    height: auto;
+    background-color: rgba(192, 192, 192, 0.356);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact troisieme ecran*/
+#contact{
+    background-color: #f0efef;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+#contact > .headTitre > p{
+    background: transparent;
+}
+#boxesContact{
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: auto;
+}
+#boxesContact > ul > li {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.spanContact{
+    max-width: 50vw;
+    margin-left: 20px;
+}
+
+h4:hover{
+    color: rgb(77, 186, 250);
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#footerContent{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+}
+#infos{
+    max-width: 560px;
+    width: 80vw;
+    margin-bottom: 50px;
+}
+#infos > h3, #socialFooter > h3{
+    font-size: 27px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+}
+#socialFooter{
+    margin-left: auto;
+    width: min-content;
+}
+#socialFooter > ul {
+    display: flex;
+    flex-direction: row;
+}
+#socialFooter > ul > li{
+    width: min-content;
+    margin-left: auto;
+    margin: 5px;
+}
+#socialFooter > ul > li:hover{
+    cursor: pointer;
+}
+#socialFooter > ul > li > a > img{
+    width: 50px;
+}
+
+
+
+@media (max-width: 700px){
+    .box{
+        background-color: rgba(255, 255, 255, 0.452);
+
+    }
+    #home_hero_social{
+        display: none;
+    }
+    #home_hero_content{
+        background: none;
+    }
+    #icons{
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .active #icons:before{
+        content: "\2715";
+    }
+    #icons:before{
+        content: "\2630";
+
+    }
+    nav ul{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.25s;
+    }
+    .active ul{
+        left: 0;
+    }
+    .boxe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        min-width: 400px;
+        height: auto;
+        padding: 10px;
+        background-color: rgba(77, 186, 250, 0.507);;
+        border-radius: 10px;
+    }
+    #home_hero_content{
+        width: 90vw;
+    }
+    #boxesContact > ul > li {
+        align-items: center;
+        justify-content: center;
+    }
+    .spanContact{
+        min-width: 80vw;
+        text-align: center;
+    }
+}
+@media (min-height: 900px){
+    #contact, #surMoi{
+        height: 100vh;
+    }
+    #contact > .headTitre{
+        margin-bottom: auto;
+    }
+}
